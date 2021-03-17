@@ -28,7 +28,7 @@ public class UserController {
 	@RequestMapping("/user/delete.do")
 	public String delete(){
 		logger.info("경로 : delete");
-		okokok //dsf
+		okokok
 		return "user/delete");
 	}
 }
